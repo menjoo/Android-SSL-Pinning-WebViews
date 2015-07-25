@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+     tools:context=".MainActivity" android:layout_height="fill_parent" android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/webView" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intercept and use pinning"
+        android:id="@+id/pinningSwitch"
+        android:checked="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="load infosupport.com (pinned)"
+        android:id="@+id/btn1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="load security.stackexchange.com"
+        android:id="@+id/btn2" />
+
+
+</LinearLayout>
