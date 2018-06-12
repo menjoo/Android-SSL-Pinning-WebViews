@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">SSL Pinning in Webviews</string>
+    <string name="app_name">Pinning and whitelisting Webviews</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="loaded">Loaded %s</string>
+    <string name="loading_prevented">Loading prevented, %s</string>
+    <string name="certificate_pinning">Certificate pinning</string>
+    <string name="domain_and_scheme_whitelisting">Domain and scheme whitelisting</string>
+    <string name="button_url1">load infosupport.com (pinned and whitelisted)</string>
+    <string name="button_url2">load security.stackexchange.com (not pinned and not whitelisted)</string>
 </resources>
