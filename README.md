@@ -1,4 +1,4 @@
-# Android-SSL-Pinning-WebViews
+# Certificate pinning and scheme/domain whitelisting in Android WebViews
 ## A simple demo app that demonstrates:
 * Certificate pinning in Android WebViews
 * Scheme and domain whitelisting in Android WebViews
